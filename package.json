@@ -20,7 +20,7 @@
     "translations": "node scripts/translations.js"
   },
   "devDependencies": {
-    "@ideditor/schema-builder": "~6.5.1",
+    "@ideditor/schema-builder": "github:matkoniecz/schema-builder#main",
     "prettier": "^3.2.5",
     "unzipper": "^0.12.3"
   }
