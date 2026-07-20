@@ -461,12 +461,12 @@
         "key": "bicycle_road",
         "type": "defaultCheck",
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "BE",
                 "NL"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "options": [
@@ -1144,7 +1144,7 @@
     },
     "collection_times": {
         "key": "collection_times",
-        "type": "text"
+        "type": "schedule"
     },
     "collector": {
         "key": "collector",
@@ -1462,15 +1462,15 @@
             "ladder:paired": "iD-crossing_markings-ladder_paired"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "BG",
                 "DE",
                 "AT",
                 "CH",
                 "PL"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "options": [
@@ -1592,15 +1592,15 @@
         "type": "combo",
         "default": "yes",
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "BG",
                 "DE",
                 "AT",
                 "CH",
                 "PL"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "icons": {
@@ -2023,12 +2023,14 @@
     "destination": {
         "key": "destination",
         "type": "semiCombo",
+        "allowDuplicates": false,
         "snake_case": false,
         "caseSensitive": true
     },
     "destination/ref": {
         "key": "destination:ref",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "snake_case": false,
         "caseSensitive": true
     },
@@ -2039,16 +2041,19 @@
             "key": "oneway",
             "value": "yes"
         },
+        "allowDuplicates": true,
         "snake_case": false,
         "caseSensitive": true
     },
     "destination/symbol": {
         "key": "destination:symbol",
-        "type": "semiCombo"
+        "type": "semiCombo",
+        "allowDuplicates": true
     },
     "destination/symbol_oneway": {
         "key": "destination:symbol",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "prerequisiteTag": {
             "key": "oneway",
             "value": "yes"
@@ -2637,11 +2642,11 @@
         "autoSuggestions": true,
         "caseSensitive": true,
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "RU"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "options": [
@@ -3711,11 +3716,11 @@
         "type": "combo",
         "snake_case": false,
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "fr"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -3728,11 +3733,11 @@
             "valueNot": "no"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "fr"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -3759,7 +3764,15 @@
     "maxwidth/physical": {
         "key": "maxwidth:physical",
         "type": "roadheight",
-        "snake_case": false
+        "snake_case": false,
+        "prerequisiteTag": {
+            "key": "cycle_barrier",
+            "values": [
+                "single",
+                "diagonal",
+                "tilted"
+            ]
+        }
     },
     "memorial": {
         "key": "memorial",
@@ -4122,7 +4135,10 @@
         "snake_case": false,
         "prerequisiteTag": {
             "key": "cycle_barrier",
-            "valueNot": "single"
+            "values": [
+                "double",
+                "triple"
+            ]
         }
     },
     "opening_date": {
@@ -4131,13 +4147,13 @@
     },
     "opening_hours": {
         "key": "opening_hours",
-        "type": "combo",
+        "type": "schedule",
         "snake_case": false,
         "caseSensitive": true
     },
     "opening_hours/drive_through": {
         "key": "opening_hours:drive_through",
-        "type": "combo",
+        "type": "schedule",
         "prerequisiteTag": {
             "key": "drive_through",
             "value": "yes"
@@ -4185,7 +4201,10 @@
         "snake_case": false,
         "prerequisiteTag": {
             "key": "cycle_barrier",
-            "valueNot": "single"
+            "values": [
+                "double",
+                "triple"
+            ]
         }
     },
     "panoramax": {
@@ -4752,11 +4771,11 @@
     "post_box/type": {
         "key": "post_box:type",
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "gb"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "type": "combo",
@@ -5032,9 +5051,6 @@
         "key": "ref:vatin",
         "type": "identifier",
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "ai",
                 "ao",
@@ -5086,6 +5102,9 @@
                 "vg",
                 "xk",
                 "ye"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -5618,7 +5637,7 @@
     },
     "service_times": {
         "key": "service_times",
-        "type": "text"
+        "type": "schedule"
     },
     "shelter": {
         "key": "shelter",
@@ -5808,7 +5827,10 @@
         "snake_case": false,
         "prerequisiteTag": {
             "key": "cycle_barrier",
-            "valueNot": "single"
+            "values": [
+                "double",
+                "triple"
+            ]
         }
     },
     "species": {

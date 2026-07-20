@@ -15,10 +15,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -37,10 +37,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -59,10 +59,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -80,10 +80,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -104,10 +104,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -128,10 +128,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -149,10 +149,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -172,10 +172,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -195,10 +195,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -221,10 +221,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -257,10 +257,10 @@
         },
         "searchable": false,
         "locationSet": {
-            "include": [
+            "exclude": [
                 "Planet"
             ],
-            "exclude": [
+            "include": [
                 "Planet"
             ]
         }
@@ -3575,7 +3575,7 @@
         }
     },
     "amenity/doctors/cardiology": {
-        "icon": "maki-doctor",
+        "icon": "pinhead-heart_with_greek_cross",
         "geometry": [
             "point",
             "area"
@@ -3810,7 +3810,7 @@
         }
     },
     "amenity/doctors/gynaecology": {
-        "icon": "maki-doctor",
+        "icon": "fas-venus",
         "geometry": [
             "point",
             "area"
@@ -3857,7 +3857,7 @@
         }
     },
     "amenity/doctors/haematology": {
-        "icon": "maki-doctor",
+        "icon": "maki-blood-bank",
         "geometry": [
             "point",
             "area"
@@ -4139,7 +4139,7 @@
         }
     },
     "amenity/doctors/ophthalmology": {
-        "icon": "maki-doctor",
+        "icon": "fas-eye",
         "geometry": [
             "point",
             "area"
@@ -4421,7 +4421,7 @@
         }
     },
     "amenity/doctors/podiatry": {
-        "icon": "maki-doctor",
+        "icon": "pinhead-foot",
         "geometry": [
             "point",
             "area"
@@ -4562,7 +4562,7 @@
         }
     },
     "amenity/doctors/pulmonology": {
-        "icon": "maki-doctor",
+        "icon": "fas-lungs",
         "geometry": [
             "point",
             "area"
@@ -5213,7 +5213,7 @@
         }
     },
     "amenity/fast_food/bagel": {
-        "icon": "maki-fast-food",
+        "icon": "pinhead-bagel_seeded",
         "geometry": [
             "point",
             "area"
@@ -8696,11 +8696,11 @@
             "amenity": "post_box"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "us"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -8981,11 +8981,11 @@
             "value": "irish"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "ie"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -9150,7 +9150,6 @@
             "name",
             "public_bookcase/type",
             "operator",
-            "capacity",
             "lit"
         ],
         "moreFields": [
@@ -9159,6 +9158,7 @@
             "branch_brand",
             "books",
             "brand",
+            "capacity",
             "colour",
             "covered",
             "direction",
@@ -12439,7 +12439,7 @@
         }
     },
     "amenity/ticket_validator": {
-        "icon": "temaki-vending_tickets",
+        "icon": "pinhead-ticket_in_slot",
         "fields": [
             "ref",
             "operator"
@@ -21599,7 +21599,7 @@
         }
     },
     "emergency/lifeguard": {
-        "icon": "fas-life-ring",
+        "icon": "pinhead-person_sitting_on_lifeguard_stand_above_water",
         "fields": [
             "lifeguard",
             "ref",
@@ -22417,7 +22417,7 @@
         }
     },
     "healthcare/audiologist": {
-        "icon": "maki-hospital",
+        "icon": "temaki-ear",
         "geometry": [
             "point",
             "area"
@@ -22825,7 +22825,7 @@
         }
     },
     "healthcare/podiatrist": {
-        "icon": "maki-hospital",
+        "icon": "pinhead-foot",
         "geometry": [
             "point",
             "area"
@@ -23463,9 +23463,6 @@
     },
     "highway/cycleway/bicycle_foot": {
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "fr",
                 "lt",
@@ -23473,6 +23470,9 @@
                 "de",
                 "il",
                 "ps"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "icon": "temaki-pedestrian_and_cyclist",
@@ -23557,9 +23557,6 @@
     },
     "highway/cycleway/crossing/bicycle_foot": {
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "fr",
                 "lt",
@@ -23567,6 +23564,9 @@
                 "de",
                 "il",
                 "ps"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "icon": "temaki-ped_cyclist_crosswalk",
@@ -23839,9 +23839,6 @@
     },
     "highway/cycleway/traffic_island_shared": {
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "fr",
                 "lt",
@@ -23849,6 +23846,9 @@
                 "de",
                 "il",
                 "ps"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "icon": "temaki-pedestrian_and_cyclist",
@@ -24664,12 +24664,12 @@
             "highway": "motorway_link"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "ca",
                 "us"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -25384,12 +25384,12 @@
             "highway": "primary_link"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "ca",
                 "us"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -26422,11 +26422,11 @@
     },
     "highway/toll_gantry": {
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "de"
+            ],
+            "include": [
+                "Planet"
             ]
         },
         "icon": "temaki-toll_gantry",
@@ -26644,12 +26644,12 @@
             "highway": "trunk_link"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "ca",
                 "us"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },
@@ -30255,6 +30255,7 @@
             "material",
             "lit",
             "bench",
+            "covered",
             "colour"
         ],
         "moreFields": [
@@ -30279,6 +30280,7 @@
             "material",
             "lit",
             "bench",
+            "covered",
             "colour"
         ],
         "moreFields": [
@@ -35434,23 +35436,6 @@
             "military": "checkpoint"
         }
     },
-    "military/nuclear_explosion_site": {
-        "icon": "maki-danger",
-        "fields": [
-            "name"
-        ],
-        "moreFields": [
-            "gnis/feature_id-US"
-        ],
-        "geometry": [
-            "point",
-            "vertex",
-            "area"
-        ],
-        "tags": {
-            "military": "nuclear_explosion_site"
-        }
-    },
     "military/office": {
         "icon": "temaki-military",
         "fields": [
@@ -39222,7 +39207,7 @@
         "searchable": false
     },
     "office/union": {
-        "icon": "maki-suitcase",
+        "icon": "fas-hand-back-fist",
         "geometry": [
             "point",
             "area"
@@ -39663,7 +39648,7 @@
         }
     },
     "place/farm": {
-        "icon": "maki-farm",
+        "icon": "maki-triangle-stroked",
         "geometry": [
             "point",
             "area"
@@ -41623,7 +41608,8 @@
         "tags": {
             "public_transport": "platform"
         },
-        "matchScore": 0.6
+        "matchScore": 0.6,
+        "searchable": false
     },
     "public_transport/platform/aerialway": {
         "icon": "temaki-board_gondola_lift",
@@ -42310,7 +42296,8 @@
         "tags": {
             "public_transport": "platform"
         },
-        "matchScore": 0.6
+        "matchScore": 0.6,
+        "searchable": false
     },
     "public_transport/station": {
         "icon": "temaki-transit",
@@ -42351,7 +42338,8 @@
         "tags": {
             "public_transport": "station"
         },
-        "matchScore": 0.2
+        "matchScore": 0.2,
+        "searchable": false
     },
     "public_transport/station_aerialway": {
         "icon": "temaki-gondola_lift",
@@ -42887,7 +42875,8 @@
         "tags": {
             "public_transport": "stop_position"
         },
-        "matchScore": 0.2
+        "matchScore": 0.2,
+        "searchable": false
     },
     "public_transport/stop_position_aerialway": {
         "icon": "temaki-gondola_lift",
@@ -46009,7 +45998,7 @@
         }
     },
     "shop/charity": {
-        "icon": "maki-shop",
+        "icon": "pinhead-shopping_bag_with_heart",
         "fields": [
             "name",
             "shop",
@@ -46065,7 +46054,7 @@
         }
     },
     "shop/cheese": {
-        "icon": "fas-cheese",
+        "icon": "pinhead-cheese_wedge",
         "geometry": [
             "point",
             "area"
@@ -46088,7 +46077,7 @@
         ]
     },
     "shop/chemist": {
-        "icon": "fas-shopping-basket",
+        "icon": "pinhead-tube_and_toothbrush",
         "geometry": [
             "point",
             "area"
@@ -52436,7 +52425,7 @@
         ]
     },
     "shop/second_hand": {
-        "icon": "fas-hand-holding-hand",
+        "icon": "pinhead-shopping_bag_with_arrows_recirculating",
         "fields": [
             "name",
             "shop",
@@ -56296,7 +56285,7 @@
         }
     },
     "traffic_calming/cushion": {
-        "icon": "temaki-speed_hump",
+        "icon": "roentgen-traffic_cushion",
         "fields": [
             "surface",
             "direction_vertex"
@@ -56347,7 +56336,7 @@
         }
     },
     "traffic_calming/mini_bumps": {
-        "icon": "temaki-speed_bump",
+        "icon": "roentgen-mini_bumps",
         "tags": {
             "traffic_calming": "mini_bumps"
         },
@@ -56449,13 +56438,13 @@
             "traffic_sign": "maxspeed"
         },
         "locationSet": {
-            "include": [
-                "Planet"
-            ],
             "exclude": [
                 "US",
                 "CA",
                 "LR"
+            ],
+            "include": [
+                "Planet"
             ]
         }
     },

@@ -11,7 +11,7 @@
     "tags": [
         {
             "key": "addr:interpolation",
-            "description": "🄿 Address Interpolation (unsearchable), 🄵 Type",
+            "description": "🄿 Address Interpolation (unsearchable)",
             "object_types": [
                 "way"
             ]
@@ -1052,7 +1052,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/doctor.svg"
+            "icon_url": "https://pinhead.ink/latest/heart_with_greek_cross.svg"
         },
         {
             "key": "healthcare:speciality",
@@ -1102,7 +1102,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/doctor.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-venus.svg"
         },
         {
             "key": "healthcare:speciality",
@@ -1112,7 +1112,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/doctor.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/blood-bank.svg"
         },
         {
             "key": "healthcare:speciality",
@@ -1172,7 +1172,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/doctor.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-eye.svg"
         },
         {
             "key": "healthcare:speciality",
@@ -1232,7 +1232,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/doctor.svg"
+            "icon_url": "https://pinhead.ink/latest/foot.svg"
         },
         {
             "key": "healthcare:speciality",
@@ -1262,7 +1262,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/doctor.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-lungs.svg"
         },
         {
             "key": "healthcare:speciality",
@@ -1421,7 +1421,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/fast-food.svg"
+            "icon_url": "https://pinhead.ink/latest/bagel_seeded.svg"
         },
         {
             "key": "cuisine",
@@ -2998,7 +2998,7 @@
             "object_types": [
                 "node"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/vending_tickets.svg"
+            "icon_url": "https://pinhead.ink/latest/ticket_in_slot.svg"
         },
         {
             "key": "amenity",
@@ -5774,7 +5774,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-life-ring.svg"
+            "icon_url": "https://pinhead.ink/latest/person_sitting_on_lifeguard_stand_above_water.svg"
         },
         {
             "key": "emergency",
@@ -6147,7 +6147,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/hospital.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/ear.svg"
         },
         {
             "key": "healthcare",
@@ -6267,7 +6267,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/hospital.svg"
+            "icon_url": "https://pinhead.ink/latest/foot.svg"
         },
         {
             "key": "healthcare",
@@ -6629,7 +6629,7 @@
         },
         {
             "key": "conveying",
-            "description": "🄿 Moving Walkway, 🄿 Escalator, 🄵 Movement Direction",
+            "description": "🄿 Moving Walkway, 🄿 Escalator",
             "object_types": [
                 "way"
             ],
@@ -7619,7 +7619,7 @@
         {
             "key": "landuse",
             "value": "garages",
-            "description": "🄿 Garage Landuse",
+            "description": "🄿 Garage Land Use",
             "object_types": [
                 "area"
             ],
@@ -9012,7 +9012,7 @@
         },
         {
             "key": "service",
-            "description": "🄿 Slipway (Drivable), 🄵 Type, 🄵 Service Type",
+            "description": "🄿 Slipway (Drivable), 🄵 Type",
             "object_types": [
                 "way"
             ],
@@ -10249,16 +10249,6 @@
         },
         {
             "key": "military",
-            "value": "nuclear_explosion_site",
-            "description": "🄿 Nuclear Explosion Site",
-            "object_types": [
-                "node",
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/danger.svg"
-        },
-        {
-            "key": "military",
             "value": "office",
             "description": "🄿 Military Office",
             "object_types": [
@@ -11393,7 +11383,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-hand-back-fist.svg"
         },
         {
             "key": "office",
@@ -11496,7 +11486,7 @@
         },
         {
             "key": "piste:type",
-            "description": "🄿 Snowsports Trail / Piste (Unspecified Type) (unsearchable), 🄵 Type",
+            "description": "🄿 Snowsports Trail / Piste (Unspecified Type) (unsearchable)",
             "object_types": [
                 "way",
                 "area"
@@ -11588,7 +11578,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/farm.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/triangle-stroked.svg"
         },
         {
             "key": "place",
@@ -12361,7 +12351,7 @@
         {
             "key": "public_transport",
             "value": "platform",
-            "description": "🄿 Transit Platform, 🄿 Aerialway Platform, 🄿 Aerialway Stop / Platform (unsearchable), 🄿 Bus Platform, 🄿 Bus Stop, 🄿 Tram & Bus Stop, 🄿 Ferry Platform, 🄿 Ferry Stop / Platform (unsearchable), 🄿 Light Rail Platform, 🄿 Light Rail Stop / Platform (unsearchable), 🄿 Monorail Platform, 🄿 Monorail Stop / Platform (unsearchable), 🄿 Subway Platform, 🄿 Subway Stop / Platform (unsearchable), 🄿 Train Platform, 🄿 Train Stop / Platform (unsearchable), 🄿 Tram Platform, 🄿 Tram Stop / Platform, 🄿 Trolleybus Platform, 🄿 Trolleybus Stop, 🄿 Transit Stop / Platform",
+            "description": "🄿 Transit Platform (unsearchable), 🄿 Aerialway Platform, 🄿 Aerialway Stop / Platform (unsearchable), 🄿 Bus Platform, 🄿 Bus Stop, 🄿 Tram & Bus Stop, 🄿 Ferry Platform, 🄿 Ferry Stop / Platform (unsearchable), 🄿 Light Rail Platform, 🄿 Light Rail Stop / Platform (unsearchable), 🄿 Monorail Platform, 🄿 Monorail Stop / Platform (unsearchable), 🄿 Subway Platform, 🄿 Subway Stop / Platform (unsearchable), 🄿 Train Platform, 🄿 Train Stop / Platform (unsearchable), 🄿 Tram Platform, 🄿 Tram Stop / Platform, 🄿 Trolleybus Platform, 🄿 Trolleybus Stop, 🄿 Transit Stop / Platform (unsearchable)",
             "object_types": [
                 "way",
                 "area"
@@ -12469,7 +12459,7 @@
         {
             "key": "public_transport",
             "value": "station",
-            "description": "🄿 Transit Station, 🄿 Bus Station / Terminal, 🄿 Ferry Terminal, 🄿 Light Rail Station, 🄿 Monorail Station, 🄿 Subway Station, 🄿 Train Station, 🄿 Train Station (Halt / Request), 🄿 Tram Station, 🄿 Trolleybus Station / Terminal",
+            "description": "🄿 Transit Station (unsearchable), 🄿 Bus Station / Terminal, 🄿 Ferry Terminal, 🄿 Light Rail Station, 🄿 Monorail Station, 🄿 Subway Station, 🄿 Train Station, 🄿 Train Station (Halt / Request), 🄿 Tram Station, 🄿 Trolleybus Station / Terminal",
             "object_types": [
                 "node",
                 "area"
@@ -12535,7 +12525,7 @@
         {
             "key": "public_transport",
             "value": "stop_position",
-            "description": "🄿 Transit Stopping Location, 🄿 Aerialway Stopping Location, 🄿 Bus Stopping Location, 🄿 Ferry Stopping Location, 🄿 Light Rail Stopping Location, 🄿 Monorail Stopping Location, 🄿 Subway Stopping Location, 🄿 Train Stopping Location, 🄿 Tram Stopping Location, 🄿 Trolleybus Stopping Location",
+            "description": "🄿 Transit Stopping Location (unsearchable), 🄿 Aerialway Stopping Location, 🄿 Bus Stopping Location, 🄿 Ferry Stopping Location, 🄿 Light Rail Stopping Location, 🄿 Monorail Stopping Location, 🄿 Subway Stopping Location, 🄿 Train Stopping Location, 🄿 Tram Stopping Location, 🄿 Trolleybus Stopping Location",
             "object_types": [
                 "node"
             ],
@@ -13270,7 +13260,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop.svg"
+            "icon_url": "https://pinhead.ink/latest/shopping_bag_with_heart.svg"
         },
         {
             "key": "shop",
@@ -13280,7 +13270,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-cheese.svg"
+            "icon_url": "https://pinhead.ink/latest/cheese_wedge.svg"
         },
         {
             "key": "shop",
@@ -13290,7 +13280,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-shopping-basket.svg"
+            "icon_url": "https://pinhead.ink/latest/tube_and_toothbrush.svg"
         },
         {
             "key": "shop",
@@ -14410,7 +14400,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-hand-holding-hand.svg"
+            "icon_url": "https://pinhead.ink/latest/shopping_bag_with_arrows_recirculating.svg"
         },
         {
             "key": "shop",
@@ -15284,7 +15274,7 @@
             "object_types": [
                 "node"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/speed_hump.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/enzet/Roentgen@main/icons/traffic_cushion.svg"
         },
         {
             "key": "traffic_calming",
@@ -15320,7 +15310,7 @@
             "object_types": [
                 "node"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/speed_bump.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/enzet/Roentgen@main/icons/mini_bumps.svg"
         },
         {
             "key": "traffic_calming",
@@ -17056,10 +17046,6 @@
         },
         {
             "key": "cai_scale",
-            "description": "🄵 Hiking Route Difficulty (Italian Alpine Club)"
-        },
-        {
-            "key": "cai_scale",
             "value": "T",
             "description": "🄵🅅 Hiking Route Difficulty (Italian Alpine Club): T: Touristic"
         },
@@ -17090,10 +17076,6 @@
         {
             "key": "camera:mount",
             "description": "🄵 Camera Mount"
-        },
-        {
-            "key": "camera:type",
-            "description": "🄵 Camera Type"
         },
         {
             "key": "camera:type",
@@ -18273,10 +18255,6 @@
         },
         {
             "key": "crane:type",
-            "description": "🄵 Crane Type"
-        },
-        {
-            "key": "crane:type",
             "value": "floor-mounted_crane",
             "description": "🄵🅅 Crane Type: Floor-mounted Crane"
         },
@@ -18423,10 +18401,6 @@
         {
             "key": "crossing",
             "description": "🄵 Type"
-        },
-        {
-            "key": "crossing:barrier",
-            "description": "🄵 Barrier Arm"
         },
         {
             "key": "crossing:barrier",
@@ -18833,10 +18807,6 @@
         },
         {
             "key": "cycle_barrier",
-            "description": "🄵 Type"
-        },
-        {
-            "key": "cycle_barrier",
             "value": "single",
             "description": "🄵🅅 Type: Single"
         },
@@ -18859,10 +18829,6 @@
             "key": "cycle_barrier",
             "value": "tilted",
             "description": "🄵🅅 Type: Tilted"
-        },
-        {
-            "key": "cycle_barrier:installation",
-            "description": "🄵 Installation"
         },
         {
             "key": "cycle_barrier:installation",
@@ -19116,10 +19082,6 @@
         },
         {
             "key": "departures_board",
-            "description": "🄵 Departures/Arrivals Board"
-        },
-        {
-            "key": "departures_board",
             "value": "yes",
             "description": "🄵🅅 Departures/Arrivals Board: Yes"
         },
@@ -19310,10 +19272,6 @@
         },
         {
             "key": "dog",
-            "description": "🄵 Dogs"
-        },
-        {
-            "key": "dog",
             "value": "yes",
             "description": "🄵🅅 Dogs: Allowed, 🄵🅅 Suitable For Dogs: yes"
         },
@@ -19331,6 +19289,10 @@
             "key": "dog",
             "value": "no",
             "description": "🄵🅅 Dogs: Not Allowed, 🄵🅅 Suitable For Dogs: no"
+        },
+        {
+            "key": "dog",
+            "description": "🄵 Dogs"
         },
         {
             "key": "door:height",
@@ -19367,10 +19329,6 @@
         {
             "key": "ele",
             "description": "🄵 Elevation (Meters)"
-        },
-        {
-            "key": "electrified",
-            "description": "🄵 Electrification"
         },
         {
             "key": "electrified",
@@ -19559,10 +19517,6 @@
         },
         {
             "key": "fire_hydrant:position",
-            "description": "🄵 Position"
-        },
-        {
-            "key": "fire_hydrant:position",
             "value": "green",
             "description": "🄵🅅 Position: Green/Grass"
         },
@@ -19587,10 +19541,6 @@
         },
         {
             "key": "fire_hydrant:type",
-            "description": "🄵 Shape"
-        },
-        {
-            "key": "fire_hydrant:type",
             "value": "wall",
             "description": "🄵🅅 Shape: Wall"
         },
@@ -19598,10 +19548,6 @@
             "key": "fire_hydrant:type",
             "value": "pipe",
             "description": "🄵🅅 Shape: Capped Pipe"
-        },
-        {
-            "key": "fire_mains",
-            "description": "🄵 Network-Type"
         },
         {
             "key": "fire_mains",
@@ -19625,10 +19571,6 @@
         },
         {
             "key": "fire_service_inlet",
-            "description": "🄵 Shape"
-        },
-        {
-            "key": "fire_service_inlet",
             "value": "pillar",
             "description": "🄵🅅 Shape: Pillar/Aboveground"
         },
@@ -19646,10 +19588,6 @@
             "key": "fire_service_inlet",
             "value": "pipe",
             "description": "🄵🅅 Shape: Capped Pipe"
-        },
-        {
-            "key": "fire_sprinkler",
-            "description": "🄵 Fire Sprinkler Inlet"
         },
         {
             "key": "fire_sprinkler",
@@ -19768,10 +19706,6 @@
         {
             "key": "flag:wikipedia",
             "description": "🄵 Flag Wikidata"
-        },
-        {
-            "key": "flashing_lights",
-            "description": "🄵 Flashing Lights"
         },
         {
             "key": "flashing_lights",
@@ -20711,10 +20645,6 @@
         },
         {
             "key": "holding_position:type",
-            "description": "🄵 Type"
-        },
-        {
-            "key": "holding_position:type",
             "value": "runway",
             "description": "🄵🅅 Type: Runway"
         },
@@ -20736,10 +20666,6 @@
             "key": "leisure",
             "description": "🄵🅅 Horseback Riding Center: yes",
             "value": "yes"
-        },
-        {
-            "key": "horse_scale",
-            "description": "🄵 Horseback Riding Difficulty"
         },
         {
             "key": "horse_scale",
@@ -20855,10 +20781,6 @@
         },
         {
             "key": "internet_access",
-            "description": "🄵 Internet Connection"
-        },
-        {
-            "key": "internet_access",
             "value": "yes",
             "description": "🄵🅅 Internet Connection: Yes"
         },
@@ -20902,10 +20824,6 @@
         {
             "key": "junction:ref",
             "description": "🄵 Junction Number"
-        },
-        {
-            "key": "junction",
-            "description": "🄵 Junction"
         },
         {
             "key": "junction",
@@ -20990,10 +20908,6 @@
         },
         {
             "key": "leaf_cycle",
-            "description": "🄵 Leaf Cycle"
-        },
-        {
-            "key": "leaf_cycle",
             "value": "semi_evergreen",
             "description": "🄵🅅 Leaf Cycle: Semi-Evergreen"
         },
@@ -21006,10 +20920,6 @@
             "key": "leaf_cycle",
             "value": "mixed",
             "description": "🄵🅅 Leaf Cycle: Mixed"
-        },
-        {
-            "key": "leaf_type",
-            "description": "🄵 Leaf Type"
         },
         {
             "key": "leaf_type",
@@ -21135,10 +21045,6 @@
         {
             "key": "map_size",
             "description": "🄵 Coverage"
-        },
-        {
-            "key": "map_type",
-            "description": "🄵 Type"
         },
         {
             "key": "map_type",
@@ -21602,10 +21508,6 @@
         },
         {
             "key": "mtb:scale",
-            "description": "🄵 Mountain Biking Difficulty"
-        },
-        {
-            "key": "mtb:scale",
             "value": "0",
             "description": "🄵🅅 Mountain Biking Difficulty: 0: Solid gravel/packed earth, no obstacles, wide curves"
         },
@@ -21641,10 +21543,6 @@
         },
         {
             "key": "mtb:scale:imba",
-            "description": "🄵 IMBA Trail Difficulty"
-        },
-        {
-            "key": "mtb:scale:imba",
             "value": "0",
             "description": "🄵🅅 IMBA Trail Difficulty: ⚪ Easiest (white circle)"
         },
@@ -21667,10 +21565,6 @@
             "key": "mtb:scale:imba",
             "value": "4",
             "description": "🄵🅅 IMBA Trail Difficulty: ◆◆ Extremely Difficult (double black diamond)"
-        },
-        {
-            "key": "mtb:scale:uphill",
-            "description": "🄵 Mountain Biking Uphill Difficulty"
         },
         {
             "key": "mtb:scale:uphill",
@@ -21716,7 +21610,7 @@
         },
         {
             "key": "network",
-            "description": "🄵 Network, 🄵 Network Class"
+            "description": "🄵 Network"
         },
         {
             "key": "network:type",
@@ -21789,10 +21683,6 @@
         {
             "key": "note",
             "description": "🄵 Note"
-        },
-        {
-            "key": "nudism",
-            "description": "🄵 Nudism"
         },
         {
             "key": "nudism",
@@ -21979,10 +21869,6 @@
         },
         {
             "key": "parking",
-            "description": "🄵 Type, 🄵 Parking"
-        },
-        {
-            "key": "parking",
             "value": "surface",
             "description": "🄵🅅 Type: `surface`"
         },
@@ -22033,10 +21919,6 @@
         },
         {
             "key": "parking:left:orientation",
-            "description": "🄵 Parking Orientation"
-        },
-        {
-            "key": "parking:left:orientation",
             "value": "parallel",
             "description": "🄵🅅 Parking Orientation: Parallel to the Street"
         },
@@ -22052,10 +21934,6 @@
         },
         {
             "key": "parking:right:orientation",
-            "description": "🄵 Parking Orientation"
-        },
-        {
-            "key": "parking:right:orientation",
             "value": "parallel",
             "description": "🄵🅅 Parking Orientation: Parallel to the Street"
         },
@@ -22068,10 +21946,6 @@
             "key": "parking:right:orientation",
             "value": "perpendicular",
             "description": "🄵🅅 Parking Orientation: Meets the Street at a Straight Angle (~90°)"
-        },
-        {
-            "key": "parking:both:orientation",
-            "description": "🄵 Parking Orientation"
         },
         {
             "key": "parking:both:orientation",
@@ -22090,10 +21964,6 @@
         },
         {
             "key": "parking:both:orientation:both",
-            "description": "🄵 Parking Orientation"
-        },
-        {
-            "key": "parking:both:orientation:both",
             "value": "parallel",
             "description": "🄵🅅 Parking Orientation: Parallel to the Street"
         },
@@ -22106,10 +21976,6 @@
             "key": "parking:both:orientation:both",
             "value": "perpendicular",
             "description": "🄵🅅 Parking Orientation: Meets the Street at a Straight Angle (~90°)"
-        },
-        {
-            "key": "parking:left",
-            "description": "🄵 Parking"
         },
         {
             "key": "parking:left",
@@ -22150,10 +22016,6 @@
             "key": "parking:left",
             "value": "yes",
             "description": "🄵🅅 Parking: Yes (unspecified)"
-        },
-        {
-            "key": "parking:right",
-            "description": "🄵 Parking"
         },
         {
             "key": "parking:right",
@@ -22212,10 +22074,6 @@
         },
         {
             "key": "parking:both",
-            "description": "🄵 Parking"
-        },
-        {
-            "key": "parking:both",
             "value": "lane",
             "description": "🄵🅅 Parking: Roadside Lane"
         },
@@ -22253,6 +22111,10 @@
             "key": "parking:both",
             "value": "yes",
             "description": "🄵🅅 Parking: Yes (unspecified)"
+        },
+        {
+            "key": "parking",
+            "description": "🄵 Type"
         },
         {
             "key": "parking_space",
@@ -22456,10 +22318,6 @@
         },
         {
             "key": "piste:difficulty",
-            "description": "🄵 Difficulty"
-        },
-        {
-            "key": "piste:difficulty",
             "value": "novice",
             "description": "🄵🅅 Difficulty: Novice, 🄵🅅 Difficulty: Novice (instructional), 🄵🅅 Difficulty: Novice - Flat, no effort needed, 🄵🅅 Difficulty: Novice - L: <30° incline"
         },
@@ -22492,10 +22350,6 @@
             "key": "piste:difficulty",
             "value": "extreme",
             "description": "🄵🅅 Difficulty: Extreme, 🄵🅅 Difficulty: Extreme (climbing equipment required), 🄵🅅 Difficulty: Extreme - EX: >55° incline"
-        },
-        {
-            "key": "piste:grooming",
-            "description": "🄵 Grooming"
         },
         {
             "key": "piste:grooming",
@@ -23075,10 +22929,6 @@
         },
         {
             "key": "pump",
-            "description": "🄵 Pump"
-        },
-        {
-            "key": "pump",
             "value": "yes",
             "description": "🄵🅅 Pump: Yes"
         },
@@ -23121,10 +22971,6 @@
         },
         {
             "key": "railway:signal:position",
-            "description": "🄵 Placement"
-        },
-        {
-            "key": "railway:signal:position",
             "value": "left",
             "description": "🄵🅅 Placement: Left"
         },
@@ -23147,10 +22993,6 @@
             "key": "railway:signal:position",
             "value": "overhead",
             "description": "🄵🅅 Placement: Overhead (attached to the catenary wire)"
-        },
-        {
-            "key": "railway:signal_box",
-            "description": "🄵 Type"
         },
         {
             "key": "railway:signal_box",
@@ -23301,10 +23143,6 @@
             "description": "🄵🅅 Accepts: Food Waste"
         },
         {
-            "key": "recycling_type",
-            "description": "🄵 Type"
-        },
-        {
             "key": "ref",
             "description": "🄵 Reference Code, 🄵 Gate Number, 🄵 Bridge Number, 🄵 Hole Number, 🄵 Junction Number, 🄵 Platform Number, 🄵 Line Number, 🄵 Road Number, 🄵 Room Number, 🄵 Route Number, 🄵 Runway Number, 🄵 Section Number, 🄵 Stop Number, 🄵 Taxiway Name"
         },
@@ -23413,10 +23251,6 @@
             "key": "religion",
             "value": "benzhu",
             "description": "🄵🅅 Religion: Benzhu"
-        },
-        {
-            "key": "reservation",
-            "description": "🄵 Reservations"
         },
         {
             "key": "reservation",
@@ -23677,10 +23511,6 @@
         },
         {
             "key": "royal_cypher",
-            "description": "🄵 Royal Cypher"
-        },
-        {
-            "key": "royal_cypher",
             "value": "VR",
             "description": "🄵🅅 Royal Cypher: VR (Victoria)"
         },
@@ -23731,10 +23561,6 @@
         {
             "key": "rwn_ref",
             "description": "🄵 Walking Code"
-        },
-        {
-            "key": "sac_scale",
-            "description": "🄵 Hiking Difficulty"
         },
         {
             "key": "sac_scale",
@@ -23841,10 +23667,6 @@
         },
         {
             "key": "seamark:beacon_lateral:category",
-            "description": "🄵 Category"
-        },
-        {
-            "key": "seamark:beacon_lateral:category",
             "value": "port",
             "description": "🄵🅅 Category: Port"
         },
@@ -23875,10 +23697,6 @@
         },
         {
             "key": "seamark:beacon_lateral:colour",
-            "description": "🄵 Color"
-        },
-        {
-            "key": "seamark:beacon_lateral:colour",
             "value": "red",
             "description": "🄵🅅 Color: Red"
         },
@@ -23895,10 +23713,6 @@
         {
             "key": "seamark:beacon_lateral:shape",
             "description": "🄵 Shape"
-        },
-        {
-            "key": "seamark:beacon_lateral:system",
-            "description": "🄵 System"
         },
         {
             "key": "seamark:beacon_lateral:system",
@@ -23919,10 +23733,6 @@
             "key": "seamark:beacon_lateral:system",
             "value": "other",
             "description": "🄵🅅 System: Other"
-        },
-        {
-            "key": "seamark:buoy_lateral:category",
-            "description": "🄵 Category"
         },
         {
             "key": "seamark:buoy_lateral:category",
@@ -23976,10 +23786,6 @@
         },
         {
             "key": "seamark:buoy_lateral:colour",
-            "description": "🄵 Color"
-        },
-        {
-            "key": "seamark:buoy_lateral:colour",
             "value": "red;white;red;white",
             "description": "🄵🅅 Color: Red-White-Red-White"
         },
@@ -24011,10 +23817,6 @@
         {
             "key": "seamark:buoy_lateral:shape",
             "description": "🄵 Shape"
-        },
-        {
-            "key": "seamark:buoy_lateral:system",
-            "description": "🄵 System"
         },
         {
             "key": "seamark:buoy_lateral:system",
@@ -24292,10 +24094,6 @@
         },
         {
             "key": "siren:type",
-            "description": "🄵 Type"
-        },
-        {
-            "key": "siren:type",
             "value": "pneumatic",
             "description": "🄵🅅 Type: Pneumatic"
         },
@@ -24308,10 +24106,6 @@
             "key": "siren:type",
             "value": "other",
             "description": "🄵🅅 Type: Other"
-        },
-        {
-            "key": "smoking",
-            "description": "🄵 Smoking"
         },
         {
             "key": "smoking",
@@ -24342,10 +24136,6 @@
             "key": "smoking",
             "value": "dedicated",
             "description": "🄵🅅 Smoking: Dedicated to smokers (e.g. smokers' club)"
-        },
-        {
-            "key": "smoothness",
-            "description": "🄵 Smoothness"
         },
         {
             "key": "smoothness",
@@ -25034,10 +24824,6 @@
         },
         {
             "key": "surveillance:type",
-            "description": "🄵 Surveillance Type"
-        },
-        {
-            "key": "surveillance:type",
             "value": "guard",
             "description": "🄵🅅 Surveillance Type: Guard"
         },
@@ -25187,10 +24973,6 @@
         },
         {
             "key": "switch",
-            "description": "🄵 Type"
-        },
-        {
-            "key": "switch",
             "value": "mechanical",
             "description": "🄵🅅 Type: Mechanical"
         },
@@ -25229,10 +25011,6 @@
         },
         {
             "key": "taxi_vehicle",
-            "description": "🄵 Vehicle Type"
-        },
-        {
-            "key": "taxi_vehicle",
             "value": "motorcar",
             "description": "🄵🅅 Vehicle Type: `motorcar`"
         },
@@ -25242,7 +25020,7 @@
         },
         {
             "key": "tee",
-            "description": "🄵 Tee Color/Type, 🄵 Tee Color"
+            "description": "🄵 Tee Color/Type"
         },
         {
             "key": "tee",
@@ -25330,10 +25108,6 @@
             "key": "toilets",
             "description": "🄵🅅 Toilets: no",
             "value": "no"
-        },
-        {
-            "key": "toilets:disposal",
-            "description": "🄵 Disposal"
         },
         {
             "key": "toilets:disposal",
@@ -25459,10 +25233,6 @@
         },
         {
             "key": "tracktype",
-            "description": "🄵 Track Type"
-        },
-        {
-            "key": "tracktype",
             "value": "grade1",
             "description": "🄵🅅 Track Type: Solid: paved"
         },
@@ -25544,10 +25314,6 @@
         },
         {
             "key": "traffic_signals:sound",
-            "description": "🄵 Sound Signals"
-        },
-        {
-            "key": "traffic_signals:sound",
             "value": "yes",
             "description": "🄵🅅 Sound Signals: Yes"
         },
@@ -25575,10 +25341,6 @@
             "key": "traffic_signals:vibration",
             "description": "🄵🅅 Vibration: no",
             "value": "no"
-        },
-        {
-            "key": "trail_visibility",
-            "description": "🄵 Trail Visibility"
         },
         {
             "key": "trail_visibility",
@@ -25613,10 +25375,6 @@
         {
             "key": "trailer",
             "description": "🄵 Trailer Access"
-        },
-        {
-            "key": "transformer",
-            "description": "🄵 Type"
         },
         {
             "key": "transformer",
@@ -25703,10 +25461,6 @@
             "key": "two_sided",
             "description": "🄵🅅 Two-Sided: yes, 🄵🅅 Two-Sided: Yes",
             "value": "yes"
-        },
-        {
-            "key": "usage",
-            "description": "🄵 Usage Type"
         },
         {
             "key": "usage",
@@ -25836,10 +25590,6 @@
         },
         {
             "key": "visibility",
-            "description": "🄵 Visibility"
-        },
-        {
-            "key": "visibility",
             "value": "house",
             "description": "🄵🅅 Visibility: Up to 5m (16ft)"
         },
@@ -25856,10 +25606,6 @@
         {
             "key": "volcano:status",
             "description": "🄵 Volcano Status"
-        },
-        {
-            "key": "volcano:type",
-            "description": "🄵 Volcano Type"
         },
         {
             "key": "volcano:type",
@@ -26016,10 +25762,6 @@
             "key": "windings:auto",
             "description": "🄵🅅 Autotransformer: no, 🄵🅅 Autotransformer: No",
             "value": "no"
-        },
-        {
-            "key": "windings:configuration",
-            "description": "🄵 Windings Configuration"
         },
         {
             "key": "windings:configuration",

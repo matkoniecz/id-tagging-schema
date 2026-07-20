@@ -9615,35 +9615,16 @@
                     ]
                 },
                 "public_transport/platform": {
-                    "name": "Transit Platform",
-                    "terms": [
-                        "platform",
-                        "public transit",
-                        "public transportation",
-                        "transit",
-                        "transportation"
-                    ]
+                    "name": "Transit Platform"
                 },
                 "public_transport/platform_point": {
-                    "name": "Transit Stop / Platform",
-                    "terms": [
-                        "platform",
-                        "public transit",
-                        "public transportation",
-                        "transit",
-                        "transportation"
-                    ]
+                    "name": "Transit Stop / Platform"
                 },
                 "public_transport/station": {
-                    "name": "Transit Station",
-                    "terms": [
-                        "public transit",
-                        "public transportation",
-                        "station",
-                        "terminal",
-                        "transit",
-                        "transportation"
-                    ]
+                    "name": "Transit Station"
+                },
+                "public_transport/stop_position": {
+                    "name": "Transit Stopping Location"
                 },
                 "public_transport/station_aerialway": {
                     "name": "Aerialway Station",
@@ -9799,15 +9780,6 @@
                 },
                 "public_transport/stop_area": {
                     "name": "Transit Stop Area"
-                },
-                "public_transport/stop_position": {
-                    "name": "Transit Stopping Location",
-                    "terms": [
-                        "public transit",
-                        "public transportation",
-                        "transit",
-                        "transportation"
-                    ]
                 },
                 "public_transport/stop_position_aerialway": {
                     "name": "Aerialway Stopping Location",
@@ -10199,8 +10171,11 @@
                 "power/tower": {
                     "name": "High-Voltage Tower",
                     "terms": [
+                        "electric",
                         "power",
-                        "power tower"
+                        "power tower",
+                        "pylon",
+                        "transmission tower"
                     ]
                 },
                 "power/transformer": {
@@ -11774,18 +11749,6 @@
                         "navy",
                         "troop",
                         "war"
-                    ]
-                },
-                "military/nuclear_explosion_site": {
-                    "name": "Nuclear Explosion Site",
-                    "terms": [
-                        "atom",
-                        "blast",
-                        "bomb",
-                        "detonation",
-                        "nuke",
-                        "site",
-                        "test"
                     ]
                 },
                 "military/office": {
@@ -13990,8 +13953,9 @@
                     ]
                 },
                 "landuse/garages": {
-                    "name": "Garage Landuse",
+                    "name": "Garage Land Use",
                     "terms": [
+                        "garage landuse",
                         "parking"
                     ]
                 },
@@ -14607,7 +14571,15 @@
                     ]
                 },
                 "historic/wayside_shrine": {
-                    "name": "Wayside Shrine"
+                    "name": "Wayside Shrine",
+                    "terms": [
+                        "buddhist",
+                        "catholic",
+                        "christian",
+                        "religion",
+                        "religious",
+                        "shinto"
+                    ]
                 },
                 "historic/wreck": {
                     "name": "Shipwreck",
