@@ -246,6 +246,8 @@ A list of preset IDs that are expected to appear as vertices on a line or area m
     }
 ```
 
+Such listing may be used for example by editors. On selecting vertex of `power=line` and listing available presets this ordered list can be taken into account.
+
 ##### `replacement`
 
 The ID of a preset that is preferable to this one. iD's validator will flag features matching this preset and recommend that the user upgrade the tags.
