@@ -1228,6 +1228,12 @@
         "pattern": "^.+$",
         "urlFormat": "https://instagram.com/{value}"
     },
+    "contact/mastodon": {
+        "key": "contact:mastodon",
+        "type": "identifier",
+        "pattern": "^.+$",
+        "urlFormat": "https://fedirect.toolforge.org/?id={value}"
+    },
     "contact/webcam": {
         "key": "contact:webcam",
         "type": "url"
@@ -1247,6 +1253,19 @@
             "slurry",
             "water",
             "wine"
+        ]
+    },
+    "content_bulk": {
+        "key": "content",
+        "type": "combo",
+        "options": [
+            "silage",
+            "manure",
+            "crop",
+            "grain",
+            "salt",
+            "cement",
+            "sand"
         ]
     },
     "conveying": {
@@ -2338,6 +2357,29 @@
         "locationSet": {
             "include": [
                 "us"
+            ]
+        }
+    },
+    "drive_through_common_for_atm": {
+        "key": "drive_through",
+        "type": "check",
+        "locationSet": {
+            "include": [
+                "ca",
+                "us",
+                "mx",
+                "cr",
+                "ec",
+                "gt",
+                "hn",
+                "ni",
+                "pr",
+                "do",
+                "ve",
+                "au",
+                "nz",
+                "id",
+                "my"
             ]
         }
     },
@@ -4524,6 +4566,16 @@
             "upi"
         ]
     },
+    "pedagogy": {
+        "key": "pedagogy",
+        "type": "combo",
+        "options": [
+            "mainstream",
+            "montessori",
+            "waldorf",
+            "dalton"
+        ]
+    },
     "phases": {
         "key": "phases",
         "type": "number",
@@ -6630,6 +6682,19 @@
             "pitlatrine",
             "chemical",
             "bucket"
+        ]
+    },
+    "toilets/hands_drying": {
+        "key": "toilets:hands_drying",
+        "type": "semiCombo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "electric_hand_dryer",
+            "paper_towel",
+            "towel",
+            "towel_cabinet",
+            "no"
         ]
     },
     "toilets/handwashing": {

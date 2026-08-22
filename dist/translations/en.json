@@ -374,8 +374,6 @@
                 "barrier": {
                     "label": "Type",
                     "options": {
-                        "lift_gate": "Boom Gate",
-                        "block": "Large Block",
                         "ditch": "Ditch",
                         "fence": "Fence",
                         "gate": "Gate",
@@ -383,7 +381,9 @@
                         "hedge": "Hedge",
                         "kerb": "Curb",
                         "bollard": "Bollard",
+                        "lift_gate": "Boom Gate",
                         "retaining_wall": "Retaining Wall",
+                        "block": "Block",
                         "guard_rail": "Guard Rail",
                         "cycle_barrier": "Cycle Barrier",
                         "stile": "Stile",
@@ -587,7 +587,6 @@
                     ],
                     "options": {
                         "yes": "Unspecified Building Type",
-                        "terrace": "Row Houses",
                         "container": "Container",
                         "supermarket": "Supermarket Building",
                         "riding_hall": "Horseback Riding Arena",
@@ -603,6 +602,7 @@
                         "roof": "Roof",
                         "farm_auxiliary": "Farm Building",
                         "semidetached_house": "Semi-Detached House",
+                        "terrace": "Row of Townhouses",
                         "commercial": "Commercial Building",
                         "school": "School Building",
                         "retail": "Retail Building",
@@ -885,6 +885,18 @@
                         "wine": "Wine"
                     }
                 },
+                "content_bulk": {
+                    "label": "Content",
+                    "options": {
+                        "silage": "Silage",
+                        "manure": "Manure",
+                        "crop": "Crop",
+                        "grain": "Grain",
+                        "salt": "Salt",
+                        "cement": "Cement",
+                        "sand": "Sand"
+                    }
+                },
                 "conveying": {
                     "label": "Movement Direction",
                     "options": {
@@ -923,25 +935,25 @@
                 "craft": {
                     "label": "Type",
                     "options": {
-                        "electronics_repair": "Electronics Repair",
-                        "hvac": "HVAC",
                         "brewery": "Brewery",
-                        "handicraft": "Handicraft",
                         "builder": "Builder",
                         "jeweller": "Jeweller",
                         "grinding_mill": "Grinding Mill",
                         "oil_mill": "Oil Mill",
                         "carpenter": "Carpenter",
+                        "electronics_repair": "Electronics Repair Shop",
                         "winery": "Winery",
                         "metal_construction": "Metalworker",
                         "photographer": "Photographer",
                         "electrician": "Electrician",
+                        "hvac": "HVAC Workplace",
                         "plumber": "Plumber",
                         "tailor": "Tailor",
                         "caterer": "Caterer",
                         "shoemaker": "Shoemaker",
                         "sawmill": "Sawmill",
                         "window_construction": "Window Construction",
+                        "handicraft": "Handicraft Workspace",
                         "gardener": "Gardener",
                         "joiner": "Joiner",
                         "dressmaker": "Dressmaker",
@@ -1453,6 +1465,9 @@
                 "drive_through": {
                     "label": "Drive-Through"
                 },
+                "drive_through_common_for_atm": {
+                    "label": "Drive-Through"
+                },
                 "duration": {
                     "label": "Duration",
                     "placeholder": "00:00"
@@ -1464,11 +1479,11 @@
                         "kindergarten": "Kindergarten",
                         "university": "University",
                         "college": "College",
-                        "dancing_school": "Dancing School",
                         "driving_school": "Driving School",
                         "language_school": "Language School",
                         "music_school": "Music School",
-                        "prep_school": "Test Prep / Tutoring School"
+                        "prep_school": "Test Prep / Tutoring School",
+                        "dancing_school": "Dance School"
                     }
                 },
                 "ele": {
@@ -1793,13 +1808,12 @@
                 "healthcare": {
                     "label": "Type",
                     "options": {
-                        "pharmacy": "Pharmacy",
                         "hospital": "Hospital",
                         "nurse": "Nurse",
-                        "blood_donation": "Blood Donation Center",
                         "community_health_worker": "Community Health Worker",
                         "vaccination_centre": "Vaccination Center",
                         "blood_bank": "Blood Bank",
+                        "pharmacy": "Pharmacy Counter",
                         "doctor": "Doctor",
                         "clinic": "Clinic",
                         "dentist": "Dentist",
@@ -1811,6 +1825,7 @@
                         "podiatrist": "Podiatrist",
                         "counselling": "Counselling Center",
                         "speech_therapist": "Speech Therapist",
+                        "blood_donation": "Blood Donation Center",
                         "hospice": "Hospice",
                         "occupational_therapist": "Occupational Therapist",
                         "dialysis": "Dialysis Center",
@@ -1824,13 +1839,12 @@
                 "healthcare_therapist": {
                     "label": "Type",
                     "options": {
-                        "pharmacy": "Pharmacy",
                         "hospital": "Hospital",
                         "nurse": "Nurse",
-                        "blood_donation": "Blood Donation Center",
                         "community_health_worker": "Community Health Worker",
                         "vaccination_centre": "Vaccination Center",
                         "blood_bank": "Blood Bank",
+                        "pharmacy": "Pharmacy Counter",
                         "doctor": "Doctor",
                         "clinic": "Clinic",
                         "dentist": "Dentist",
@@ -1842,6 +1856,7 @@
                         "podiatrist": "Podiatrist",
                         "counselling": "Counselling Center",
                         "speech_therapist": "Speech Therapist",
+                        "blood_donation": "Blood Donation Center",
                         "hospice": "Hospice",
                         "occupational_therapist": "Occupational Therapist",
                         "dialysis": "Dialysis Center",
@@ -2553,7 +2568,6 @@
                     "label": "Type",
                     "options": {
                         "logistics": "Forwarding Agency",
-                        "property_management": "Property Management Office",
                         "construction_company": "Construction Company Office",
                         "courier": "Courier Office",
                         "government": "Government Office",
@@ -2580,6 +2594,7 @@
                         "energy_supplier": "Energy Supplier Office",
                         "financial_advisor": "Financial Advisor",
                         "consulting": "Consultancy Office",
+                        "property_management": "Property Management / Leasing Office",
                         "newspaper": "Newspaper Office",
                         "security": "Security Office",
                         "engineer": "Engineering Office",
@@ -2905,6 +2920,27 @@
                         "upi": "UPI (Unified Payments Interface)"
                     }
                 },
+                "pedagogy": {
+                    "label": "Pedagogy",
+                    "terms": [
+                        "dalton",
+                        "educational model",
+                        "educational philosophy",
+                        "learning approach",
+                        "montessori",
+                        "pedagogical model",
+                        "pedagogics",
+                        "steiner",
+                        "teaching method",
+                        "waldorf"
+                    ],
+                    "options": {
+                        "mainstream": "Mainstream",
+                        "montessori": "Montessori",
+                        "waldorf": "Waldorf / Steiner",
+                        "dalton": "Dalton"
+                    }
+                },
                 "phases": {
                     "label": "Phases",
                     "placeholder": "1, 2, 3..."
@@ -2938,20 +2974,6 @@
                 "playground": {
                     "label": "Type",
                     "options": {
-                        "structure": "Playground Structure",
-                        "sandpit": "Sandbox / Sandpit",
-                        "climbingframe": "Climbing Frame",
-                        "playhouse": "Playhouse",
-                        "roundabout": "Merry-Go-Round / Roundabout",
-                        "zipwire": "Zipline / Zipwire",
-                        "horizontal_bar": "Horizontal Bar",
-                        "balancebeam": "Balance Beam",
-                        "splash_pad": "Splash Pad",
-                        "climbingwall": "Climbing Wall",
-                        "water": "Water Device (unspecified)",
-                        "bridge": "Bridge",
-                        "map": "Map",
-                        "activitypanel": "Activity Panel",
                         "exercise": "Exercise Device",
                         "platform": "Platform",
                         "tunnel_tube": "Tunnel Tube",
@@ -3017,12 +3039,26 @@
                         "water_seesaw": "Water Seesaw",
                         "sand_seesaw": "Sand Seesaw",
                         "swing": "Swing",
+                        "structure": "Play Structure",
                         "slide": "Slide",
+                        "sandpit": "Play Sandbox",
                         "springy": "Spring Rider",
+                        "climbingframe": "Play Climbing Frame",
                         "seesaw": "Seesaw",
+                        "playhouse": "Play House",
                         "basketswing": "Basket Swing",
+                        "roundabout": "Play Roundabout",
                         "trampoline": "Trampoline",
+                        "zipwire": "Play Zip Line",
+                        "horizontal_bar": "Play Horizontal Bar",
+                        "balancebeam": "Play Balance Beam",
                         "hopscotch": "Hopscotch",
+                        "splash_pad": "Play Splash Pad",
+                        "climbingwall": "Play Climbing Wall",
+                        "water": "Play Water Device (unspecified)",
+                        "bridge": "Play Bridge",
+                        "map": "Painted Playground Map",
+                        "activitypanel": "Play Activity Panel",
                         "cushion": "Bouncy Cushion",
                         "teenshelter": "Teen Shelter"
                     }
@@ -3534,12 +3570,12 @@
                     "label": "Type",
                     "options": {
                         "assisted_living": "Assisted Living",
-                        "day_care": "Day Care",
                         "group_home": "Group Home",
                         "outreach": "Outreach",
                         "shelter": "Shelter",
                         "workshop": "Workshop",
                         "ambulatory_care": "Ambulatory Care",
+                        "day_care": "Social Services Day Care / Day Center",
                         "food_bank": "Food Bank",
                         "nursing_home": "Nursing Home"
                     }
@@ -4287,8 +4323,8 @@
                 "wetland": {
                     "label": "Type",
                     "options": {
-                        "reedbed": "Reed Bed",
                         "marsh": "Marsh",
+                        "reedbed": "Reed bed",
                         "saltmarsh": "Coastal Salt Marsh",
                         "tidalflat": "Tidal Flat",
                         "wet_meadow": "Wet Meadow",
@@ -4461,6 +4497,16 @@
                         "chemical": "Chemical",
                         "bucket": "Bucket",
                         "pitlatrine": "Pit Latrine"
+                    }
+                },
+                "toilets/hands_drying": {
+                    "label": "Hand Drying",
+                    "options": {
+                        "electric_hand_dryer": "Electric hand dryer",
+                        "paper_towel": "Paper towels",
+                        "towel": "Fabric towel",
+                        "towel_cabinet": "Reused continuous fabric roll",
+                        "no": "No drying equipment"
                     }
                 },
                 "toilets/handwashing": {
@@ -6201,6 +6247,10 @@
                 "contact/instagram": {
                     "label": "Instagram account name or URL",
                     "placeholder": "https://www.instagram.com/openstreetmap/"
+                },
+                "contact/mastodon": {
+                    "label": "Mastodon handle or URL",
+                    "placeholder": "https://en.osm.town/@openstreetmap"
                 },
                 "contact/webcam": {
                     "label": "Webcam URL",
@@ -12398,10 +12448,7 @@
                 "man_made/silo": {
                     "name": "Silo",
                     "terms": [
-                        "corn",
-                        "grain",
-                        "grain elevator",
-                        "wheat"
+                        "bulk"
                     ]
                 },
                 "man_made/ski_jump": {
@@ -12743,6 +12790,15 @@
                     "terms": [
                         "cistern",
                         "water tower"
+                    ]
+                },
+                "man_made/silo/crop": {
+                    "name": "Crop Silo",
+                    "terms": [
+                        "corn",
+                        "grain",
+                        "grain elevator",
+                        "wheat"
                     ]
                 },
                 "man_made/pipeline/underground": {
@@ -15868,7 +15924,7 @@
                     ]
                 },
                 "healthcare/blood_donation": {
-                    "name": "Blood Donor Center",
+                    "name": "Blood Donation Center",
                     "terms": [
                         "apheresis",
                         "blood bank",
@@ -15908,7 +15964,8 @@
                         "delivery",
                         "labor",
                         "labour",
-                        "pregnancy"
+                        "pregnancy",
+                        "women's healthcare"
                     ]
                 },
                 "healthcare/occupational_therapist": {
@@ -17395,9 +17452,10 @@
                     "name": "Kissing Gate"
                 },
                 "barrier/lift_gate": {
-                    "name": "Boom Barrier",
+                    "name": "Boom Gate",
                     "terms": [
-                        "boom gate",
+                        "arm barrier",
+                        "boom barrier",
                         "boom lift",
                         "hinged bar",
                         "lift gate",
@@ -18789,6 +18847,18 @@
                     "terms": [
                         "parking spot",
                         "parking stall"
+                    ]
+                },
+                "amenity/parking_surface": {
+                    "name": "Surface Parking Lot",
+                    "terms": [
+                        "at-grade parking",
+                        "car park",
+                        "ground level parking",
+                        "open air parking",
+                        "parking lot",
+                        "surface lot",
+                        "surface parking"
                     ]
                 },
                 "amenity/payment_centre": {
