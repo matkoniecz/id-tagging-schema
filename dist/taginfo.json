@@ -4127,14 +4127,6 @@
             "description": "🄿 Stile, 🄵🅅 Type: Stile"
         },
         {
-            "key": "stile",
-            "object_types": [
-                "node"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/stile_squeezer.svg",
-            "description": "🄿 Stile, 🄵 Type"
-        },
-        {
             "key": "barrier",
             "value": "swing_gate",
             "object_types": [
@@ -4397,14 +4389,6 @@
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/enzet/Roentgen@main/icons/building_construction.svg",
             "description": "🄿 Building Under Construction, 🄵🅅 Building: Building Under Construction"
-        },
-        {
-            "key": "construction",
-            "object_types": [
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/enzet/Roentgen@main/icons/building_construction.svg",
-            "description": "🄿 Building Under Construction, 🄿 Road Under Construction, 🄿 Construction Area, 🄵 Type"
         },
         {
             "key": "building",
@@ -6597,14 +6581,6 @@
             "description": "🄿 Cycle & Foot Path, 🄿 Cycle & Foot Crossing, 🄿 Cycle & Foot Refuge Island, 🄵🅅 Allowed Access: `designated`"
         },
         {
-            "key": "segregated",
-            "object_types": [
-                "way"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_and_cyclist.svg",
-            "description": "🄿 Cycle & Foot Path, 🄿 Cycle & Foot Crossing"
-        },
-        {
             "key": "cycleway",
             "value": "crossing",
             "object_types": [
@@ -7541,14 +7517,6 @@
             "description": "🄿 Indoor Door"
         },
         {
-            "key": "door",
-            "object_types": [
-                "node"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/entrance-alt1.svg",
-            "description": "🄿 Indoor Door, 🄵 Door, 🄵 Type"
-        },
-        {
             "key": "indoor",
             "value": "room",
             "object_types": [
@@ -7792,7 +7760,7 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/industry.svg",
-            "description": "🄿 Industrial Area, 🄿 Industrial Brewery (unsearchable), 🄿 Depot, 🄿 Industrial Area (unsearchable), 🄿 Scrap Yard, 🄿 Slaughterhouse, 🄿 Power Station Grounds, 🄿 Coal-Fired Power Plant, 🄿 Gas-Fired Power Plant, 🄿 Nuclear Power Plant, 🄿 Oil-Fired Power Plant, 🄿 Solar Power Plant, 🄿 Solar Farm, 🄿 Waste Incineration Power Plant, 🄿 Wind Farm"
+            "description": "🄿 Industrial Area, 🄿 Industrial Brewery (unsearchable), 🄿 Depot, 🄿 Industrial Area (unsearchable), 🄿 Scrap Yard, 🄿 Slaughterhouse, 🄿 Power Station Grounds, 🄿 Coal-Fired Power Plant, 🄿 Gas-Fired Power Plant, 🄿 Nuclear Power Plant, 🄿 Oil-Fired Power Plant, 🄿 Waste Incineration Power Plant"
         },
         {
             "key": "industrial",
@@ -8086,23 +8054,6 @@
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/grapes.svg",
             "description": "🄿 Vineyard"
-        },
-        {
-            "key": "crop",
-            "value": "grape",
-            "object_types": [
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/grapes.svg",
-            "description": "🄿 Vineyard, 🄵🅅 Crops: Grapes"
-        },
-        {
-            "key": "grape_variety",
-            "object_types": [
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/grapes.svg",
-            "description": "🄿 Vineyard, 🄵 Grape Varieties"
         },
         {
             "key": "landuse",
@@ -9398,14 +9349,6 @@
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/bridge.svg",
             "description": "🄿 Bridge Area"
-        },
-        {
-            "key": "layer",
-            "object_types": [
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/bridge.svg",
-            "description": "🄿 Bridge Area, 🄿 Tunnel Area, 🄵 Layer"
         },
         {
             "key": "man_made",
@@ -12390,7 +12333,7 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/industry.svg",
-            "description": "🄿 Coal-Fired Power Plant, 🄿 Gas-Fired Power Plant, 🄿 Hydroelectric Power Station, 🄿 Nuclear Power Plant, 🄿 Oil-Fired Power Plant, 🄿 Solar Power Plant, 🄿 Solar Farm, 🄿 Waste Incineration Power Plant, 🄿 Wind Farm, 🄵🅅 Form of Power Output: Electricity, 🄵 Electric Power Output"
+            "description": "🄿 Coal-Fired Power Plant, 🄿 Gas-Fired Power Plant, 🄿 Hydroelectric Power Station, 🄿 Nuclear Power Plant, 🄿 Oil-Fired Power Plant, 🄿 Solar Farm, 🄿 Waste Incineration Power Plant, 🄿 Wind Farm, 🄵🅅 Form of Power Output: Electricity, 🄵 Electric Power Output"
         },
         {
             "key": "plant:source",
@@ -12445,14 +12388,6 @@
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-solar-panel.svg",
             "description": "🄿 Solar Power Plant, 🄿 Solar Farm, 🄵🅅 Energy Source: Solar Radiation"
-        },
-        {
-            "key": "plant:method",
-            "object_types": [
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-solar-panel.svg",
-            "description": "🄿 Solar Power Plant, 🄿 Solar Farm, 🄿 Wind Farm, 🄵 Generation Method"
         },
         {
             "key": "plant:method",
@@ -18341,6 +18276,10 @@
             "description": "🄵 Connectivity"
         },
         {
+            "key": "construction",
+            "description": "🄵 Type"
+        },
+        {
             "key": "consulate",
             "description": "🄵 Type"
         },
@@ -18673,6 +18612,11 @@
             "key": "crop",
             "value": "cassava",
             "description": "🄵🅅 Crops: Cassava"
+        },
+        {
+            "key": "crop",
+            "value": "grape",
+            "description": "🄵🅅 Crops: Grapes"
         },
         {
             "key": "crossing",
@@ -19615,6 +19559,10 @@
             "description": "🄵 Dogs"
         },
         {
+            "key": "door",
+            "description": "🄵 Door, 🄵 Type"
+        },
+        {
             "key": "door:height",
             "description": "🄵 Door Height (Meters)"
         },
@@ -20372,6 +20320,10 @@
         {
             "key": "grades",
             "description": "🄵 Grade Levels"
+        },
+        {
+            "key": "grape_variety",
+            "description": "🄵 Grape Varieties"
         },
         {
             "key": "group_only",
@@ -21201,6 +21153,10 @@
         {
             "key": "lanes",
             "description": "🄵 Lanes"
+        },
+        {
+            "key": "layer",
+            "description": "🄵 Layer"
         },
         {
             "key": "leaf_cycle",
@@ -22714,6 +22670,10 @@
         {
             "key": "plant",
             "description": "🄵 Plant"
+        },
+        {
+            "key": "plant:method",
+            "description": "🄵 Generation Method"
         },
         {
             "key": "plant:method",
@@ -24975,6 +24935,10 @@
         {
             "key": "step_count",
             "description": "🄵 Number of Steps"
+        },
+        {
+            "key": "stile",
+            "description": "🄵 Type"
         },
         {
             "key": "stop",
