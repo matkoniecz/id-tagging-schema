@@ -966,6 +966,10 @@ function validatePresetFields(presets: AllPresets, fields: AllFields) {
 
   for (let presetID in presets) {
     let preset = presets[presetID];
+    process.stdout.write(presetID.toString());
+    process.stdout.write("\n");
+    process.stdout.write(preset.name.toString());
+    process.stdout.write("\n");
 
     if (preset.replacement) {
       let replacementPreset = presets[preset.replacement];
